@@ -3,7 +3,7 @@ import { Layout, Menu } from "antd";
 
 const { Sider } = Layout;
 
-const Navbar = () => {
+const Navbar: React.FC = () => {
   return (
     <Sider width={200} className="site-layout-background">
     <Menu
