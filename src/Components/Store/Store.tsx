@@ -1,7 +1,9 @@
 import 'antd/dist/antd.css';
 import { Breadcrumb, Layout } from 'antd';
+import CardItem from './Card/CardItem';
 
 const { Content } = Layout;
+
 
 const Store: React.FC = () => {
     return (
@@ -16,7 +18,7 @@ const Store: React.FC = () => {
                     minHeight: 720,
                 }}
             >
-                Здесь будут товары
+                <CardItem/>
         </Content>
         </div>
     )
